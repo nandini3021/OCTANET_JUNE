@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Times New Roman', Times, serif,'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+
+}
+html,body{
+    width: 100%;
+    height: 100%;
+
+}
+#main{
+    width: 100%;
+    min-height: 100%;
+    
+}
+.top{
+    width:100%;
+    min-height: 60vh;
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20201026/pngtree-internet-connection-abstract-sense-of-science-and-technology-graphic-design-background-image_438824.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 6px;
+}
+.top .overlay{
+    width: 100%;
+    position: relative;
+    min-height: inherit;
+         
+}
+.text{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    padding: 8px;
+    color:rgb(196, 118, 16);
+    bottom: 1%;
+}
+.text h1{
+    color: white;
+    font-size: 40px;
+}
+
+.text .image{
+    background-image: url("https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/1015f/MainAfter.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    width:16%;
+}
+.rtext{
+    display: flex;
+    width: 25%;
+    align-items: center;
+    justify-content: space-between;
+}
+.rtext p{
+    font-size: 16px;
+}
+.bottom{
+    display: flex;
+    width: 100%;
+    min-height: 50vh;
+}
+.b1{
+    width: 35%;
+    height: 12%;
+    text-align: center;
+    min-height: inherit;
+    background-image: url("https://images.unsplash.com/photo-1550688889-021cf660e7f8?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YmVhdXRpZnVsJTIwYW5pbWFsc3xlbnwwfHwwfHx8MA%3D%3D");
+    background-size: cover;
+    background-position: center;
+}
+.b1 h1{
+    text-align: center;
+    padding: 12px;
+}
+.b1 p{
+    width: 80%;
+    height: 12vh;
+    color: rgb(24, 23, 23);
+    text-align: center;
+    padding: 5px;
+    margin: 12px;
+
+}
+.b2{
+    width: 35%;
+    min-height: inherit;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.b2 .up{
+    width:100%;
+    height: 50%;
+    background-image: url("https://w7.pngwing.com/pngs/114/579/png-transparent-pink-cross-stroke-ink-brush-pen-red-ink-brush-ink-leave-the-material-text.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.b2 .up h1{
+    text-align: center;
+    padding: 30px;
+}
+.b2 .up p{
+    color: rgb(21, 4, 22);
+    text-align: center;
+    padding-right: 12px;
+    
+}
+.b2 .Down{
+    width: 100%;
+    height: 50%;
+    padding: 20px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFhUJH3hGs4lJmFEraj_aysoQ7ObUO1hdOIbtZ7O1SqiCIY0cImTqA3bQcn2n67Iegtqk&usqp=CAU");
+    background-size: cover;
+    background-position: center;
+    border-color: rgb(21, 21, 192);
+}
+.b2 .Down h1{
+    padding: 20px;
+}
+.b3{
+    background-image: url("https://png.pngtree.com/element_our/png/20180928/beautiful-hologram-water-color-frame-png_119551.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 30%;
+    height: 50%;
+    text-align:end;
+    min-height: inherit;
+    padding:20px;
+    border-style: double ;
+    margin-inline:inherit;
+}
+.b3 .overlay{
+    justify-content: left;
+    position: relative;
+    width: 100%;
+    height: 10%;
+
+}
+.b3 .overlay p{
+    padding: 2px;
+}
+@media(max-width:500px){
+    .text{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .text h1{
+        font-size: 5vh;
+
+    }
+    .text .image{
+        height: 180px;
+        width: 180px;
+        margin-top: 1px;
+
+    }
+    .rtext{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .rtext p{
+        margin-top: 10px;
+    }
+    .icons{
+        margin-top: 10px;
+    }
+    .bottom{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .b1{
+        width: 100%;
+        min-height: 34vh;
+    }
+    .b2{
+        width: 100%;
+        min-height: 30vh;
+    }
+    .b2 .up{
+        min-height: 30vh;
+        
+    }
+    .b3{
+        width: 100%;
+        min-height: 100%;
+        background-position: right;
+        padding: 10%;
+    
+    }
+    
+    
+}
+@media(max-width:600px){
+    .rtext{
+        flex-direction: column;
+    }
+    .b3 .overlay{
+        width: 100%;
+        margin: left;
+    }
+}
